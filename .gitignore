@@ -1,0 +1,55 @@
+# -------------------------
+# Python cache
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Virtual environments
+# -------------------------
+venv/
+env/
+ENV/
+
+# -------------------------
+# Streamlit cache
+# -------------------------
+.cache/
+
+# -------------------------
+# Jupyter Notebook
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# Temporary files
+# -------------------------
+*.tmp
+*.temp
+
+# -------------------------
+# Environment variables
+# -------------------------
+.env
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Large ML files (important)
+# -------------------------
+similarity.pkl
+spotify_millsongdata.csv
+
+# Optional (if very large)
+df.pkl
