@@ -1,6 +1,6 @@
-# 🎵 Music Recommendation System
+# Music Recommendation System
 
-## 📌 Project Overview
+##  Project Overview
 
 This project is a **Music Recommendation System** that suggests songs similar to a selected song based on lyrical content.
 The system uses **Natural Language Processing (NLP)** and **Cosine Similarity** to find songs with similar lyrics.
@@ -9,7 +9,7 @@ A simple and interactive **Streamlit web application** allows users to select a 
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Select any song from the dropdown list
 * Get **Top 5 recommended songs**
@@ -19,7 +19,7 @@ A simple and interactive **Streamlit web application** allows users to select a 
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 * **Python**
 * **Streamlit** – for building the web interface
@@ -29,7 +29,7 @@ A simple and interactive **Streamlit web application** allows users to select a 
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The dataset used is **spotify_millsongdata.csv**, which contains song lyrics and metadata.
 
@@ -41,7 +41,7 @@ Main attributes include:
 
 ---
 
-## ⚙️ How the System Works
+##  How the System Works
 
 1. The dataset containing song lyrics is loaded.
 2. Lyrics are converted into numerical vectors using **TF-IDF Vectorization**.
@@ -53,7 +53,7 @@ Main attributes include:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 music-recommendation-system
@@ -69,7 +69,7 @@ music-recommendation-system
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 ### 1️⃣ Clone the repository
 
