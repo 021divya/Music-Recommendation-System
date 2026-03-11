@@ -7,10 +7,17 @@ import gdown
 
 # Download files if not present
 if not os.path.exists("df.pkl"):
-    gdown.download("https://drive.google.com/file/d/16qpXjCTaMA_IbNJVFqwAAeRVn5VHzucd/view?usp=drive_link", "df.pkl", quiet=False)
-
+    gdown.download(
+        "https://drive.google.com/uc?id=16qpXjCTaMA_IbNJVFqwAAeRVn5VHzucd",
+        "df.pkl",
+        quiet=False
+    )
 if not os.path.exists("similarity.pkl"):
-    gdown.download("https://drive.google.com/file/d/1QAyozB0u5vyid7NcarpLAFqFylNsNTsG/view?usp=drive_link", "similarity.pkl", quiet=False)
+    gdown.download(
+        "https://drive.google.com/uc?id=1QAyozB0u5vyid7NcarpLAFqFylNsNTsG",
+        "similarity.pkl",
+        quiet=False
+    )
 
 CLIENT_ID = "998cfc54bf4b4627a5f1e5dcb3f57a9d"
 CLIENT_SECRET = "e42a8c18871f43d0a4c24f24cd1ea8c4"
